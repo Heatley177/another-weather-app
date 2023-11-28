@@ -1,31 +1,30 @@
-# Create React App
+# Weather App
 
-This directory is a brief example of a [Create React App](https://github.com/facebook/create-react-app) site that can be deployed to Vercel with zero configuration.
+Responsive Weather App which utilizes api from [openweathermap.org](https://openweathermap.org/). 
 
-## Deploy Your Own
+## Features
 
-Deploy your own Create React App project with Vercel.
+- Current weather display upon input of desired city.
+- "Enter" key & button click activates data fetch
+- Error message kindly display "City not found. Please check spelling." along with mild shake animation
+- Current date display
+- Error display message focusing on error 401 (invalid API Key/sometimes occurs with deployment or upon cloning this repo), error 404 (invalid city), & not changing the EXAMPLE-API (src -> App.js -> Line 7) to YOUR unique API Key to allow the app to be usable (if you happen to clone this repo).
+- Reactive background that adjusts to more vibrant gradient for warm weather (above 32 degrees)
+- Deployed using [Vercel](https://vercel.com/home).
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/vercel/tree/main/examples/create-react-app&template=create-react-app)
+### How to Use
 
-_Live Example: https://create-react-template.vercel.app/_
+1. Open [Another-Weather-App](https://another-weather-app-alpha.vercel.app/) here.
+2. Click the search box and enter the city name of the weather you'd like to check.
+3. Press the "Enter"/"Return" key or click the "Search Weather" button below.
 
-## Available Scripts
+## Preview
+<p float="left">
+<img width="497" alt="Weather-App-1" src="https://github.com/Heatley177/another-weather-app/assets/122647272/5954b826-7579-43ad-8dc2-f142f783cc90">
 
-In the project directory, you can run:
+<img width="498" alt="Weather-App-4" src="https://github.com/Heatley177/another-weather-app/assets/122647272/1891a3c1-3bc2-4521-a94f-9fa7a9f4620e">
 
-### `npm start`
+<img width="497" alt="Weather-App-3" src="https://github.com/Heatley177/another-weather-app/assets/122647272/c8e20512-e75f-48fa-aa9d-75dee38b9157">
 
-Runs the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes. You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode. See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.
-
-It correctly bundles React in production mode and optimizes the build for the best performance. The build is minified and the filenames include the hashes.
+<img width="497" alt="Weather-App-2" src="https://github.com/Heatley177/another-weather-app/assets/122647272/b87ac852-4763-43be-aff8-ccf0af6c20d8">
+</p>
